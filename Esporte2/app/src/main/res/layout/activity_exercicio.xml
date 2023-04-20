@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#76CBD6"
+    tools:context=".ExercicioActivity">
+
+    <Button
+        android:id="@+id/buttonExercise5"
+        android:layout_width="388dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#66FFFFFF"
+        android:text="@string/button_exercise5"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/buttonExercise4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonExercise4"
+        app:layout_constraintTop_toBottomOf="@+id/buttonExercise4" />
+
+    <Button
+        android:id="@+id/buttonExercise06"
+        android:layout_width="388dp"
+        android:layout_height="104dp"
+        android:backgroundTint="#66FFFFFF"
+        android:text="@string/button_exerciseT34"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/buttonExercise5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonExercise5"
+        app:layout_constraintTop_toBottomOf="@+id/buttonExercise5"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <Button
+        android:id="@+id/buttonExercise4"
+        android:layout_width="388dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="115dp"
+        android:backgroundTint="#66FFFFFF"
+        android:text="@string/button_exercise4"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.695"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

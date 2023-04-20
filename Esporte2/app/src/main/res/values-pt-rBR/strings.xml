@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Esporte+</string>
+    <string name="Usuario_hint">Username</string>
+    <string name="senha_hint">Password</string>
+    <string name="remenber_text">Remember?</string>
+    <string name="button_login_text">Login</string>
+    <string name="button_schedule">Schedule Next</string>
+    <string name="button_exercise1">Exercicio 1</string>
+    <string name="button_exercise2">Exercicio 2</string>
+    <string name="button_exercise3">Exercicio 3</string>
+    <string name="button_exercise4">Funcional</string>
+    <string name="button_exercise5">Academias </string>
+    <string name="button_exerciseT34">Outros</string>
+    <string name="text_last_exercise">Last Exercise:</string>
+    <string name="text_bemvindo">Welcome</string>
+    <string name="Photo">Foto da logo</string>
+</resources>
